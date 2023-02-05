@@ -336,19 +336,20 @@
                             <a href="mailto:example@gmail.com">yashkhetade54@gmail.com</a>
                         </div>
                     </div> 
-                    <form class="contact-form">
+                     <form  action="https://formspree.io/f/mwkjvgae"
+                    method="POST">
                         <div class="mb-4">
-                            <input type="text" id="N-ame" class="form-control" placeholder="Your Name..." autocomplete="off">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name..." autocomplete="off" required>
                         </div>
                         <div class="mb-4">
-                            <input type="number" id="P-hone" class="form-control" placeholder="Your Phone..." autocomplete="off">
+                            <input type="number" name="number"  class="form-control" placeholder="Your Phone..." autocomplete="off" required>
                         </div>
                         <div class="mb-4">
-                            <input type="email" id="E-mail" class="form-control" placeholder="Your Email..." autocomplete="off">
+                            <input type="email" name="email" class="form-control" placeholder="Your Email..." autocomplete="off" required>
                         </div>
                         <div class="mb-4">
-                            <input cols="40" rows="4"  id="M-essage" class="form-control" id="message"
-                                placeholder="Write a Message..." autocomplete="off">
+                            <input cols="40" rows="4" name="message" class="form-control" id="message"
+                                placeholder="Write a Message..." autocomplete="off" required>
                         </div>
                         <button type="submit" class="main-btn">Submit</button>
                     </form>
